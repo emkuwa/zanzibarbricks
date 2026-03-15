@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-sans text-ocean-dark antialiased;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-12 lg:py-16;
+  }
+  .container-narrow {
+    @apply max-w-5xl mx-auto;
+  }
+  .container-wide {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+/* Optimize image loading */
+img {
+  content-visibility: auto;
+}
