@@ -21,6 +21,8 @@ export default function Layout({ children }) {
 
     let attempts = 0
     const maxAttempts = 30
+    let timeoutId = null
+
     const tryScroll = () => {
       const el = document.getElementById(id)
       if (el) {
@@ -33,9 +35,8 @@ export default function Layout({ children }) {
       }
     }
 
-    // Try immediately (when already on home) and after delay (when coming from /order)
-    tryScroll()
-    let timeoutId = window.setTimeout(tryScroll, 350)
+    // Start after a tiny delay so route/content can mount.
+    timeoutId = window.setTimeout(tryScroll, 0)
 
     return () => {
       if (timeoutId) window.clearTimeout(timeoutId)
