@@ -9,7 +9,8 @@ export default function ServiceAreas() {
   return (
     <section id="service-areas" className="section-padding bg-ocean text-white scroll-mt-20">
       <div className="container-wide">
-        <h2 className="font-display font-bold text-2xl text-center mb-6">{t('serviceAreas')}</h2>
+        <h2 className="font-display font-bold text-2xl text-center mb-2">{t('serviceAreas')}</h2>
+        <p className="text-center text-white/90 text-sm mb-6 max-w-2xl mx-auto">{t('serviceAreasSeo')}</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
           {DESTINATIONS.map((name) => (
             <div

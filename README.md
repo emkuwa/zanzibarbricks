@@ -11,6 +11,18 @@ npm run dev
 
 Open [http://localhost:5173](http://localhost:5173).
 
+## Auto-push to GitHub
+
+To have every edit automatically committed and pushed to GitHub:
+
+```bash
+npm run auto-push
+```
+
+Leave this running in a terminal while you work. After 15 seconds without new changes, it runs `git add .`, `git commit`, and `git push`. Stop with Ctrl+C.
+
+- **This project only.** For other Cursor projects, copy `scripts/watch-and-push.js` and add `"auto-push": "node scripts/watch-and-push.js"` to their `package.json` scripts.
+
 ## Change prices & contact
 
 **One place only:** `src/data/pricing.js`

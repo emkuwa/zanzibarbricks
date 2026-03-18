@@ -6,6 +6,7 @@ export const translations = {
     navPrices: 'Prices',
     navPayment: 'Payment',
     navOrder: 'Order',
+    navFaq: 'FAQ',
     getPrice: 'Get price',
 
     // Hero
@@ -49,10 +50,11 @@ export const translations = {
 
     // Service areas
     serviceAreas: 'Service areas',
+    serviceAreasSeo: 'Tofali Paje, bricks Paje – building blocks, cement blocks. We deliver to Paje, Bwejuu, Jambiani, Makunduchi, Michamvi.',
 
     // About
     aboutUs: 'About us',
-    aboutIntro: 'Zanzibar Bricks is a brand of Zanzibaba Co. Ltd. We connect builders with reliable brick supply and delivery in Paje, Bwejuu, Jambiani, Makunduchi and Michamvi. We coordinate logistics so you get bricks on site on time.',
+    aboutIntro: 'Zanzibar Bricks is a brand of Zanzibaba Co. Ltd. Building blocks and cement blocks supplier – we connect builders with reliable brick supply and delivery in Paje, Bwejuu, Jambiani, Makunduchi and Michamvi. We coordinate logistics so you get bricks on site on time.',
     aboutBrickTypes: 'Brick types: 4" for partition walls, 5" for standard walls, 6" for load-bearing. Production: we select rockstone, crush and grind it, mix with cement and water, then compact into strong bricks.',
 
     // Payment info section
@@ -93,12 +95,29 @@ export const translations = {
     paymentOptionsOffice: 'Cash at office — Chonja Complex, No. 13, Garage Area, Paje, Zanzibar.',
     subtotalDiscount: 'Subtotal {subtotal} − {percent}% bulk discount = {total}',
     whatsappDefault: 'Hello, I would like to order bricks for my construction project in Zanzibar.',
+
+    // FAQ page
+    faqTitle: 'Frequently asked questions',
+    faqIntro: 'Common questions about brick prices, delivery and ordering in Paje, Bwejuu, Jambiani, Makunduchi and Michamvi.',
+    faq1q: 'How much are building bricks in Paje? What are brick prices in Paje?',
+    faq1a: 'Brick prices in Paje depend on the brick size (4", 5" or 6") and the quantity you order. Per brick in Paje: 5" brick TSH 1,200, 6" brick TSH 2,300, 4" brick TSH 1,400. All prices include free delivery. Minimum order is 200 pcs. For a quick total, use the calculator on the homepage or order page.',
+    faq2q: 'What are brick prices in Bwejuu, Jambiani, Makunduchi and Michamvi?',
+    faq2a: 'Prices vary slightly by area. We deliver to Bwejuu, Jambiani, Makunduchi and Michamvi with free delivery. Per-brick prices: 5" from TSH 1,200 (Paje) to TSH 1,350 (Makunduchi); 6" from TSH 2,300 (Paje) to TSH 2,400; 4" from TSH 1,400 to TSH 1,550. Use the calculator on the homepage to get the exact total for your area and quantity.',
+    faq3q: 'What is the minimum order and do you offer a discount?',
+    faq3a: 'Minimum order is 200 bricks. We give a 1% bulk discount when your order total is 4 million TSH or more. All prices are in TSH and include free delivery to Paje, Bwejuu, Jambiani, Makunduchi and Michamvi.',
+    faq4q: 'How can I pay for bricks?',
+    faq4a: 'You can pay by: (1) Bank deposit – Zanzibaba Co. Ltd, NMB Bank Paje, Account 25410020773; send the receipt via WhatsApp after payment. (2) Cash on delivery – pay when bricks are delivered to your site. (3) Cash at office – Chonja Complex, No. 13, Garage Area, Paje.',
+    faq5q: 'Do you deliver to Paje, Bwejuu, Jambiani? Where do you deliver?',
+    faq5a: 'Yes. We deliver to Paje, Bwejuu, Jambiani, Makunduchi and Michamvi. Delivery is free for all these areas. We coordinate transport so bricks reach your construction site.',
+    faq6q: 'How do I order bricks?',
+    faq6a: 'Use the order form on this site to choose brick size, quantity and area, then send your order via WhatsApp. You can also get your price on the homepage calculator and share the order by WhatsApp. We will confirm and arrange delivery.',
   },
   sw: {
     navHome: 'Mwanzo',
     navPrices: 'Bei',
     navPayment: 'Malipo',
     navOrder: 'Kuagiza',
+    navFaq: 'Maswali',
     getPrice: 'Pata bei',
 
     heroTitle: 'Usambazaji Thabiti wa Matofali Zanzibar',
@@ -137,9 +156,10 @@ export const translations = {
     paymentOffice: 'Pesa ofisini',
 
     serviceAreas: 'Maeneo tunayohudumia',
+    serviceAreasSeo: 'Tofali Paje, tofali Bwejuu, tofali Jambiani – matofali ya kujengea, tofali za cement. Usafiri wa bure. Cantre za mizigo, usambazaji wa tofali.',
 
     aboutUs: 'Kuhusu sisi',
-    aboutIntro: 'Zanzibar Bricks ni chapa ya Zanzibaba Co. Ltd. Tunaunganisha wajenzi na usambazaji thabiti wa matofali huko Paje, Bwejuu, Jambiani, Makunduchi na Michamvi. Tunaongoza mambo ya usafirishaji ili upate matofali kwenye tovuti yako kwa wakati.',
+    aboutIntro: 'Zanzibar Bricks ni chapa ya Zanzibaba Co. Ltd. Matofali ya kujengea, tofali za cement – tunaunganisha wajenzi na usambazaji thabiti wa tofali huko Paje, Bwejuu, Jambiani, Makunduchi na Michamvi. Cantre za mizigo, usambazaji wa tofali. Tunaongoza mambo ya usafirishaji ili upate matofali kwenye tovuti yako kwa wakati.',
     aboutBrickTypes: 'Aina za tofali: 4" kwa kuta za mgawanyiko, 5" kwa kuta za kawaida, 6" kwa kuta zinazobeba mzigo. Uzalishaji: tunachagua mawe, kusaga, kuchanganya na simiti na maji, kisha kukandwa kuwa tofali thabiti.',
 
     howToPay: 'Jinsi ya kulipa',
@@ -177,6 +197,22 @@ export const translations = {
     paymentOptionsOffice: 'Pesa ofisini — Chonja Complex, Nambari 13, Eneo la Gari, Paje, Zanzibar.',
     subtotalDiscount: 'Jumla ya kwanza {subtotal} − punguzo {percent}% ununuzi mkubwa = {total}',
     whatsappDefault: 'Habari, ningependa kuagiza matofali kwa mradi wangu wa ujenzi huko Zanzibar.',
+
+    // FAQ page
+    faqTitle: 'Maswali yaulizwayo mara kwa mara',
+    faqIntro: 'Maswali ya kawaida kuhusu bei za matofali, usafirishaji na kuagiza huko Paje, Bwejuu, Jambiani, Makunduchi na Michamvi.',
+    faq1q: 'Bei za matofali ya kujengea Paje zipoje? Bei za tofali Paje ni ngapi?',
+    faq1a: 'Bei za matofali Paje inategemea ukubwa wa tofali (4", 5" au 6") na idadi unayoagiza. Kwa tofali moja Paje: tofali 5" TSH 1,200, tofali 6" TSH 2,300, tofali 4" TSH 1,400. Bei zote ni pamoja na usafiri wa bure. Agizo dogo ni vipande 200. Ili kupata jumla haraka, tumia kikokotoo ukurasa wa kwanza au ukurasa wa kuagiza.',
+    faq2q: 'Bei za tofali Bwejuu, Jambiani, Makunduchi na Michamvi zipoje?',
+    faq2a: 'Bei zinabadilika kidogo kwa eneo. Tunasafirishia Bwejuu, Jambiani, Makunduchi na Michamvi kwa usafiri wa bure. Bei kwa tofali: 5" kutoka TSH 1,200 (Paje) hadi TSH 1,350 (Makunduchi); 6" kutoka TSH 2,300 (Paje) hadi TSH 2,400; 4" kutoka TSH 1,400 hadi TSH 1,550. Tumia kikokotoo ukurasa wa kwanza kupata jumla halisi kwa eneo na idadi yako.',
+    faq3q: 'Agizo dogo ni ngapi na mnatoa punguzo?',
+    faq3a: 'Agizo dogo ni matofali 200. Tunatoa punguzo la 1% ununuzi mkubwa wakati jumla ya order yako ni milioni 4 TSH au zaidi. Bei zote ni kwa TSH na ni pamoja na usafiri wa bure hadi Paje, Bwejuu, Jambiani, Makunduchi na Michamvi.',
+    faq4q: 'Naweza kulipa matofali vipi?',
+    faq4a: 'Unaweza kulipa kwa: (1) Weka benki – Zanzibaba Co. Ltd, NMB Bank Paje, Akaunti 25410020773; tuma risiti kupitia WhatsApp baada ya malipo. (2) Pesa wakati wa kusafirishwa – lipa matofali yanapofika kwenye tovuti yako. (3) Pesa ofisini – Chonja Complex, Nambari 13, Eneo la Gari, Paje.',
+    faq5q: 'Mnasafirishia Paje, Bwejuu, Jambiani? Mnasafirishia wapi?',
+    faq5a: 'Ndiyo. Tunasafirishia Paje, Bwejuu, Jambiani, Makunduchi na Michamvi. Usafiri ni wa bure kwa maeneo hayo yote. Tunaongoza usafirishaji ili matofali yafike kwenye tovuti yako ya ujenzi.',
+    faq6q: 'Naagiza matofali vipi?',
+    faq6a: 'Tumia fomu ya kuagiza kwenye tovuti hii kuchagua ukubwa wa tofali, idadi na eneo, kisha tuma order yako kupitia WhatsApp. Unaweza pia kupata bei yako kwenye kikokotoo ukurasa wa kwanza na kushiriki order kupitia WhatsApp. Tutathibitisha na kupanga usafirishaji.',
   },
 }
 

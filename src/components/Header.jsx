@@ -8,6 +8,7 @@ const navKeys = [
   { to: '/#calculator', key: 'navPrices' },
   { to: '/#payment', key: 'navPayment' },
   { to: '/order', key: 'navOrder' },
+  { to: '/faq', key: 'navFaq' },
 ]
 
 export default function Header() {
@@ -54,6 +55,7 @@ export default function Header() {
               <Link
                 to="/#calculator"
                 className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-accent text-white font-semibold hover:bg-accent-dark transition-colors"
+                onClick={() => setMobileOpen(false)}
               >
                 {t('getPrice')}
               </Link>
@@ -97,11 +99,20 @@ export default function Header() {
         {mobileOpen && (
           <nav className="md:hidden mt-4 pt-4 border-t border-sand-light flex flex-col gap-2">
             {navKeys.map(({ to, key }) => (
-              <Link key={to} to={to} className="py-2 text-ocean-dark/80 hover:text-ocean font-medium" onClick={() => setMobileOpen(false)}>
+              <Link
+                key={to}
+                to={to}
+                className="py-2 text-ocean-dark/80 hover:text-ocean font-medium"
+                onClick={() => setMobileOpen(false)}
+              >
                 {t(key)}
               </Link>
             ))}
-            <Link to="/#calculator" className="mt-2 inline-flex justify-center px-5 py-2.5 rounded-lg bg-accent text-white font-semibold" onClick={() => setMobileOpen(false)}>
+            <Link
+              to="/#calculator"
+              className="mt-2 inline-flex justify-center px-5 py-2.5 rounded-lg bg-accent text-white font-semibold"
+              onClick={() => setMobileOpen(false)}
+            >
               {t('getPrice')}
             </Link>
           </nav>

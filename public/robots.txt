@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bricks.zanzibaba.com/sitemap.xml

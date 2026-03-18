@@ -8,6 +8,7 @@ const quickLinkKeys = [
   { to: '/#calculator', key: 'navPrices' },
   { to: '/#payment', key: 'navPayment' },
   { to: '/order', key: 'navOrder' },
+  { to: '/faq', key: 'navFaq' },
 ]
 
 export default function Footer() {

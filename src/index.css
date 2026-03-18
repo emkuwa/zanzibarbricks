@@ -5,6 +5,7 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 6rem; /* space for sticky header when scrolling to #calculator, #payment */
   }
   body {
     @apply font-sans text-ocean-dark antialiased;
