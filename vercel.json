@@ -4,6 +4,7 @@
     { "source": "/order/", "destination": "/order.html" },
     { "source": "/faq", "destination": "/faq.html" },
     { "source": "/faq/", "destination": "/faq.html" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    // SPA fallback (only paths without a dot, so /order.html won't be rewritten)
+    { "source": "/((?!.*\\.).*)", "destination": "/index.html" }
   ]
 }
