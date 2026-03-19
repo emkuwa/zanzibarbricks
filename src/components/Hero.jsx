@@ -8,13 +8,16 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-[75vh] flex items-center justify-center overflow-hidden">
-      <div className="absolute inset-0 bg-ocean-dark" aria-hidden />
-      <div className="absolute inset-0 bg-gradient-to-br from-ocean-dark/95 via-ocean/90 to-ocean-light/80" aria-hidden />
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "linear-gradient(to bottom right, rgba(12,74,110,0.92), rgba(14,116,144,0.78)), url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80')",
+          backgroundImage:
+            "url('https://res.cloudinary.com/dbocsjsbq/image/upload/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png')",
         }}
+        aria-hidden
+      />
+      <div
+        className="absolute inset-0 bg-gradient-to-br from-ocean-dark/75 via-ocean/55 to-ocean-light/35"
         aria-hidden
       />
 
