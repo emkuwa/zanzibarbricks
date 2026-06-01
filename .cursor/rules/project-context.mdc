@@ -1,0 +1,82 @@
+---
+description: Project context for Cursor AI — brand, stack, and conventions
+globs:
+alwaysApply: true
+---
+
+# Zanzibar Bricks — Project Context
+
+## Brand identity
+
+| Item | Value |
+|------|-------|
+| **Brand** | Zanzibar Bricks |
+| **Division** | Building Materials product line |
+| **Remote** | `emkuwa/zanzibarbricks` |
+| **Logos** | `assets/logos/` |
+
+## Project purpose
+
+Product catalog for Zanzibar Bricks masonry products.
+
+- **Audience:** Builders, developers in Zanzibar
+- **Geography:** Zanzibar/Tanzania
+
+## Design style
+
+Product catalog — masonry/brick focused imagery, straightforward B2B browsing.
+
+- `assets/mockups/`
+
+## Coding standards
+
+| Layer | Choice |
+|-------|--------|
+| Bundler | Vite 5 |
+| UI | React 18, React Router 6 |
+| Styling | Tailwind CSS 3.4 |
+
+**Structure:** `src/`, `public/` · **Script:** `auto-push` watcher
+
+## Preferred UI direction
+
+- Simple catalog UX; mobile-friendly product grids
+- Tailwind utility styling — no heavy component library
+- Auto-push script exists — be careful with git automation
+
+## Common tasks
+
+- New product → route in React Router + product data file
+- Images → `public/` or `assets/images/`
+- Build → `npm run build` before deploy
+
+## Folder rules
+
+- **Scope rule:** Only modify files inside `/Users/apple/Zanzibaba-Projects/active-projects/zanzibar-bricks/` unless the user explicitly asks otherwise.
+- **Code roots:** `src/`, `public/`
+- **Assets:** `assets/logos/`, `assets/mockups/`, `assets/images/`, `assets/icons/` — project-specific only.
+- **Docs & prompts:** `docs/` for project notes; `prompts/` for AI prompts scoped to this product.
+- **Backups/archive:** Use `backups/` and `archive/` for deprecated material — do not delete without user confirmation.
+
+- **Canonical path:** `/Users/apple/Zanzibaba-Projects/active-projects/zanzibar-bricks/` (symlinks may exist at legacy Desktop/cursor paths).
+
+## Asset usage rules
+
+- **Project-first:** Use `assets/logos/`, `assets/images/`, `assets/mockups/` before pulling from elsewhere.
+- **Group logos:** Reference `../../shared-assets/logos/` for Zanzibaba Group PNG masters — copy to `public/` only when deploy requires a local path.
+- **Brand guidelines:** Read `../../shared-assets/brand-guidelines/BRAND_GUIDELINES.md` before changing colors, fonts, or logo placement.
+- **Do not** duplicate canonical logo PNGs across repos — symlink or import at build time when possible.
+- **Do not** redraw, recolor, or add effects to approved logos (no drop shadows, gradients on emblem).
+- **Partner/trust logos:** Keep 48px+ gap from group emblem when shown in the same row (procurement pattern).
+
+## Deployment & git
+
+- Remote: `emkuwa/zanzibarbricks`
+- Vite static build to `dist/`
+- `auto-push` script — review before enabling in CI
+## References
+
+- **Master index:** `/Users/apple/Zanzibaba-Projects/PROJECT_INDEX.md`
+- **Group brand:** `/Users/apple/Zanzibaba-Projects/shared-assets/brand-guidelines/BRAND_GUIDELINES.md`
+- **Shared logos:** `/Users/apple/Zanzibaba-Projects/shared-assets/logos/`
+- **Cursor workspace:** `/Users/apple/Zanzibaba-Projects/.cursor/rules/workspace-scope.mdc`

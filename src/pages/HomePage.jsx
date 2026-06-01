@@ -3,6 +3,7 @@ import Products from '../components/Products'
 import ServiceAreas from '../components/ServiceAreas'
 import AboutShort from '../components/AboutShort'
 import PaymentInfo from '../components/PaymentInfo'
+import EmailCapture from '../components/EmailCapture'
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <ServiceAreas />
       <AboutShort />
       <PaymentInfo />
+      <EmailCapture />
     </>
   )
 }

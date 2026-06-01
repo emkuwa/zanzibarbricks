@@ -5,15 +5,26 @@ import { tr } from '../data/translations'
 export default function Hero() {
   const { language } = useLanguage()
   const t = (key) => tr(language, key)
+  const cloudinaryBase =
+    'https://res.cloudinary.com/dbocsjsbq/image/upload/f_auto,q_auto,c_fill,g_auto'
 
   return (
     <section className="relative min-h-[75vh] flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://res.cloudinary.com/dbocsjsbq/image/upload/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png')",
-        }}
+      <img
+        className="absolute inset-0 h-full w-full object-cover"
+        src={`${cloudinaryBase},w_1600/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png`}
+        srcSet={[
+          `${cloudinaryBase},w_640/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png 640w`,
+          `${cloudinaryBase},w_960/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png 960w`,
+          `${cloudinaryBase},w_1280/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png 1280w`,
+          `${cloudinaryBase},w_1600/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png 1600w`,
+          `${cloudinaryBase},w_1920/v1773876536/Gemini_Generated_Image_qm1zhsqm1zhsqm1z_k0zlu0.png 1920w`,
+        ].join(', ')}
+        sizes="100vw"
+        loading="eager"
+        fetchPriority="high"
+        decoding="async"
+        alt=""
         aria-hidden
       />
       <div

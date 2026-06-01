@@ -69,6 +69,22 @@ export const translations = {
     cashAtOffice: 'Cash at office',
     officeAddress: 'Chonja Complex, No. 13, Garage Area, Paje, Zanzibar',
 
+    // Email capture
+    emailCaptureTitle: 'Get a quote by email',
+    emailCaptureDesc: 'Tell us your requirements and we will send you a quote.',
+    emailPlaceholder: 'Your email address',
+    emailSend: 'Get quote',
+    emailSuccess: 'Thank you! We will get back to you soon.',
+    emailError: 'Please enter a valid email address.',
+
+    // Email capture
+    emailCaptureTitle: 'Pata bei kwa barua pepe',
+    emailCaptureDesc: 'Tuambie mahitaji yako na tutakutumia bei.',
+    emailPlaceholder: 'Barua pepe yako',
+    emailSend: 'Pata bei',
+    emailSuccess: 'Asante! Tutakujibu hivi karibuni.',
+    emailError: 'Tafadhali ingiza barua pepe sahihi.',
+
     // Footer
     brandOf: 'A brand of Zanzibaba Co. Ltd.',
     buildingTagline: 'Building Zanzibar, Brick by Brick.',

@@ -138,6 +138,7 @@ export default function OrderPage() {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => { if (typeof gtag !== 'undefined') gtag('event', 'click', { event_category: 'WhatsApp', event_label: 'Order Page Submit' }) }}
             className="flex items-center justify-center gap-2 w-full py-3 rounded-xl bg-[#25D366] text-white font-semibold hover:opacity-90 transition-opacity"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
